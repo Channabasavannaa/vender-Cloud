@@ -1,0 +1,30 @@
+{
+  "name": "cloud",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/mbchannabasavanna/vendor-Cloud#readme",
+  "bugs": {
+    "url": "https://github.com/mbchannabasavanna/vendor-Cloud/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbchannabasavanna/vendor-Cloud.git"
+  },
+  "license": "ISC",
+  "author": "Channa",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+   "build": "tsc",
+   "start": "node build/index.js",
+   "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@aws-sdk/util-dynamodb": "^3.921.0",
+    "aws-sdk": "^2.1692.0",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
