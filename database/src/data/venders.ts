@@ -1,0 +1,1 @@
+import { Vender } from "../types/twitter";
