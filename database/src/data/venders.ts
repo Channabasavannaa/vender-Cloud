@@ -26,6 +26,16 @@ const venders: Vender[] = [
         created: Date.now(),
         updated: Date.now(),
     }
+
+    {
+        name: "foodgasam",
+        image: "https://example.com/coffeeshop.png",
+        description: "foodgasam - Where Flavor Meets Fun!",
+        twitterId: "@bankapur17422",
+        tweets: [],
+        created: Date.now(),
+        updated: Date.now(),
+    }
 ];
 
 export default venders;

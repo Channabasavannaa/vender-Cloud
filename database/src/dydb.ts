@@ -4,7 +4,7 @@ import {
   CreateTableCommandInput,DescribeTableCommand, DeleteTableCommand, PutItemCommand
 } from "@aws-sdk/client-dynamodb";
 
-import { Vender } from "./types/twitter";
+import {Vender}  from "./types/twitter";
 import { marshall } from "@aws-sdk/util-dynamodb";
 
 // Create a DynamoDB client
